@@ -89,6 +89,7 @@ AC.Humanization = {
 	Flick = { DurationMs = { Min = 30, Max = 400 }, Curvature = { Min = 0, Max = 50 }, Humanness = { Min = 0, Max = 100 } },
 	Firing = { ShotDelayMs = { Min = 0, Max = 250 }, CooldownMs = { Min = 0, Max = 2000 } },
 }
+AC.EnvAudit = {}
 AC.EnvAudit.CLASSIFIERS = {"islclosure","iscclosure","isourclosure","isexecutorclosure","checkclosure","isnewcclosure","isfunctionhooked"}
 AC.EnvAudit.TARGETS = {"__index","__newindex","FireServer","FireServerUnreliable","FindFirstChildOfClass","getrawmetatable","setrawmetatable","sethiddenproperty","clonefunction","hookfunction","replaceclosure","restorefunction","oth_is_hook_thread","oth_get_root_callback","oth_get_original_thread","islclosure","iscclosure","isourclosure","isexecutorclosure","checkclosure","isnewcclosure","isfunctionhooked","GetMouse"}
 AC.Sentinel = { slots = 30, guarded = { [2]="f10436", [8]="print", [17]="f10434" }, statusBytes = {147,218,250} }
